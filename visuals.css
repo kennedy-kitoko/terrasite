@@ -1,0 +1,90 @@
+/* Supplied Terra visuals, readable at full width without cropping the diagram. */
+.hero-milestones{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
+.hero-milestones a{display:inline-flex;align-items:center;gap:10px;padding:9px 13px;border:1px solid #bfd6c5;border-radius:5px;color:var(--forest);font-size:.75rem;line-height:1.5;background:#f1f8ee;font-weight:500}
+.hero-milestones a:hover{background:#e2f0dd;border-color:var(--green)}
+.ecosystem-overview{padding:55px 0 65px;border-top:1px solid var(--line);background:white}
+.ecosystem-overview-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:35px;margin-bottom:32px}
+.ecosystem-overview-heading .eyebrow{margin-bottom:15px}
+.ecosystem-overview-heading h2{font-size:clamp(2rem,3.1vw,3.2rem);line-height:1.2;max-width:850px}
+.ecosystem-overview-heading .text-link{font-size:.875rem;flex-shrink:0;gap:10px}
+.ecosystem-panorama{margin:0 auto;max-width:1600px;background:#f7faf7;border-block:1px solid var(--line)}
+.ecosystem-panorama>a{display:block}
+.ecosystem-panorama img{width:100%;height:auto;object-fit:contain}
+.ecosystem-panorama figcaption{display:flex;justify-content:space-between;gap:25px;font-size:.875rem;color:var(--muted);padding:19px 40px}
+.ecosystem-panorama figcaption a{color:var(--green);font-weight:600;flex-shrink:0}
+.ecosystem-illustration-note{font-size:.875rem;line-height:1.75;margin-top:23px;max-width:1160px}
+.advisor-exchange{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:0 0 55px;border-radius:12px;overflow:hidden;background:#fff;color:var(--ink);border:1px solid var(--line)}
+.advisor-photo{margin:0;background:#f2f7f0;display:flex;flex-direction:column;min-width:0}
+.advisor-photo>img{width:100%;height:100%;min-height:365px;object-fit:cover;object-position:37% center;flex:1}
+.advisor-photo figcaption{font-size:.875rem;color:var(--forest);line-height:1.65;padding:22px 28px;background:#e8f2e7}
+.advisor-draft{padding:33px 36px}
+.advisor-exchange .eyebrow{font-size:.75rem;letter-spacing:.08em;margin-bottom:16px;color:var(--green)}
+.advisor-draft h3{font-size:1.6rem;line-height:1.3;letter-spacing:-.035em;margin-bottom:17px}
+.advisor-draft-label{display:block;font-size:.8125rem;color:var(--muted);line-height:1.6}
+.advisor-message{padding:20px 22px;margin-top:18px;border-left:3px solid var(--green);background:var(--pale)}
+.advisor-message p{font-size:1rem;color:var(--forest);line-height:1.75;margin-bottom:14px}
+.advisor-message p:last-child{margin:0}
+.advisor-outcome{color:var(--green);font-size:.875rem;line-height:1.7;margin-top:20px}
+.product-card:first-child .product-photo img[src="assets/terra-box-field-current.webp"]{object-fit:contain;object-position:center;background:#eef4ec}
+.gallery-item img[src="assets/terra-box-field-current.webp"]{object-position:center 66%}
+.team-grid img[src="assets/abdel-rachid.webp"]{object-position:center 33%}
+.recognition-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-bottom:48px}
+.recognition-card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.recognition-image{display:block;overflow:hidden;background:#e9f0e6}
+.recognition-image img{width:100%;height:350px;object-fit:cover}
+.recognition-hicool img{object-position:center 23%}
+.recognition-copy{padding:32px 34px;display:flex;flex-direction:column;flex:1}
+.recognition-copy .eyebrow{font-size:.75rem;margin-bottom:15px;letter-spacing:.1em}
+.recognition-copy h3,.recognition-publication-copy h3{font-size:1.75rem;line-height:1.3;letter-spacing:-.04em;margin-bottom:17px}
+.recognition-copy>p:not(.eyebrow){font-size:1rem;line-height:1.85;margin-bottom:22px}
+.recognition-copy .text-link{font-size:.875rem;margin-top:auto;align-self:flex-start}
+.recognition-publication{grid-column:1/-1;display:grid;grid-template-columns:.9fr 1.1fr;border:1px solid #d0e1d2;background:#fff;border-radius:12px;overflow:hidden}
+.recognition-publication-image{display:flex;align-items:center;justify-content:center;padding:28px;background:#e7f0e5}
+.recognition-publication-image img{width:100%;max-height:610px;object-fit:contain;filter:drop-shadow(0 9px 15px #12301818)}
+.recognition-publication-copy{padding:48px 46px;align-self:center}
+.recognition-publication-copy .eyebrow{font-size:.75rem;letter-spacing:.1em;margin-bottom:20px}
+.recognition-publication-copy>p:not(.eyebrow){font-size:1rem;line-height:1.85;margin-bottom:17px}
+.recognition-ranking{display:flex;align-items:center;gap:25px;border-block:1px solid var(--line);padding:24px 0;margin:28px 0}
+.recognition-ranking>strong{font:600 4rem/1 var(--display);color:var(--green);letter-spacing:-.06em;white-space:nowrap}
+.recognition-ranking>strong>span{font-size:1.45rem;vertical-align:top;letter-spacing:0;margin-left:3px}
+.recognition-ranking b{font-size:1rem}
+.recognition-ranking p{font-size:.8125rem;line-height:1.6;margin:7px 0}
+.recognition-ranking a{font-size:.8125rem;text-decoration:underline;text-underline-offset:3px;color:var(--green)}
+.recognition-publication-copy>.text-link{font-size:.875rem;line-height:1.7}
+.recognition-publication-copy>p.recognition-source{font-size:.75rem;line-height:1.65;margin:18px 0 0}
+.gallery-hicool>img{object-position:center 23%}
+.gallery-publication>a{display:block;background:#e7f0e5}
+.gallery-publication>a>img{object-fit:contain}
+/* Every agronomic stage pairs its explanation with one credited photograph. */
+.protocol-cycle-layout{grid-template-columns:minmax(0,1fr);gap:48px}
+.protocol-cycle-guide{position:static;display:grid;grid-template-columns:1fr 1.2fr;column-gap:70px;align-items:start}
+.protocol-cycle-guide>.eyebrow{grid-column:1;grid-row:1}
+.protocol-cycle-guide>h2{grid-column:1;grid-row:2}
+.protocol-cycle-guide>p:not(.eyebrow){grid-column:2;grid-row:1/3;margin-top:37px}
+.protocol-cycle-guide>.protocol-phase-links{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin-top:30px}
+.protocol-phase-links a{grid-template-columns:60px 1fr;gap:9px}
+.protocol-cycle-guide>.text-link{grid-column:1/-1;justify-self:start}
+.protocol-step{gap:26px;padding-bottom:30px}
+.protocol-step>.protocol-step-body{display:grid;grid-template-columns:1fr 1.02fr;gap:42px;padding:0 0 36px;align-items:start;min-width:0}
+.protocol-step-copy{padding-top:10px}
+.protocol-step h4{font-size:1.45rem}
+.protocol-step-photo{margin:0;min-width:0;background:#fff;border:1px solid #d1e1d4;border-radius:9px;overflow:hidden}
+.protocol-step-photo>a{display:block;background:#e8efe3}
+.protocol-step-photo img{width:100%;height:340px;object-fit:cover}
+.protocol-step-photo img.photo-contain{object-fit:contain}
+.protocol-step-photo figcaption{padding:16px 19px;font-size:.8125rem;line-height:1.65;color:var(--muted)}
+.protocol-photo-credit{display:block;font-size:.75rem;color:var(--green);margin-top:8px;text-decoration:underline;text-underline-offset:3px}
+.protocol-photo-credits{border:1px solid #c8dccd;border-radius:9px;margin-top:32px;padding:22px 27px;background:#fff}
+.protocol-photo-credits summary{font-weight:600;color:var(--forest);cursor:pointer}
+.protocol-photo-credits>p{font-size:.875rem;line-height:1.8;margin:22px 0}
+.protocol-photo-credits ul{list-style:none;padding:0;margin:0 0 20px}
+.protocol-photo-credits li{display:flex;flex-wrap:wrap;gap:8px 22px;padding:12px 0;border-bottom:1px solid var(--line);font-size:.8125rem}
+.protocol-photo-credits li b{min-width:255px;font-weight:500}
+.protocol-photo-credits li a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+.protocol-photo-credits>.text-link{font-size:.8125rem}
+.protocol-box-visual>img.protocol-current-box{height:610px;object-fit:contain;background:#e9f0e6}
+@media(max-width:1050px){.recognition-image img{height:290px}.recognition-copy{padding:28px}.recognition-publication-copy{padding:35px}.recognition-publication-copy h3{font-size:1.55rem}.protocol-step>.protocol-step-body{gap:28px}.protocol-step-photo img{height:305px}.protocol-cycle-guide{column-gap:40px}}
+@media(max-width:780px){.recognition-grid{gap:22px}.recognition-card{grid-column:1/-1}.recognition-image img{height:auto;max-height:440px}.recognition-hicool img{height:400px}.recognition-publication{grid-template-columns:1fr}.recognition-publication-image img{height:500px;width:auto;max-width:100%}.recognition-publication-copy{padding:30px}.recognition-ranking>strong{font-size:3.4rem}.protocol-step>.protocol-step-body{grid-template-columns:1fr;gap:25px}.protocol-step-photo{max-width:650px}.protocol-step-photo img{height:340px}.protocol-cycle-guide{display:block}.protocol-cycle-guide>p:not(.eyebrow){margin-top:25px}.protocol-cycle-guide>.protocol-phase-links{grid-template-columns:1fr;gap:0}.protocol-cycle-guide>h2{font-size:2.3rem}.protocol-box-visual>img.protocol-current-box{height:510px}}
+@media(max-width:480px){.recognition-copy{padding:26px 24px}.recognition-copy h3,.recognition-publication-copy h3{font-size:1.5rem}.recognition-publication-copy{padding:28px 24px}.recognition-publication-image{padding:20px}.recognition-publication-image img{height:430px}.recognition-ranking{gap:18px}.protocol-step{gap:13px}.protocol-step-photo img{height:265px}.protocol-step-photo figcaption{padding:14px}.protocol-step h4{font-size:1.25rem}.protocol-photo-credits{padding:20px}.protocol-box-visual>img.protocol-current-box{height:440px}}
+@media(max-width:1000px){.ecosystem-overview-heading{align-items:flex-start;flex-direction:column;gap:18px}.advisor-draft{padding:28px}.advisor-draft h3{font-size:1.4rem}.advisor-photo>img{object-position:35% center}.advisor-message{padding:18px}}
+@media(max-width:680px){.ecosystem-overview{padding:40px 0}.ecosystem-panorama figcaption{padding:17px 22px;font-size:.8125rem;gap:15px;align-items:flex-start}.ecosystem-panorama figcaption>span{max-width:220px}.ecosystem-illustration-note{font-size:.8125rem}.advisor-exchange{grid-template-columns:1fr;margin-bottom:35px}.advisor-photo>img{height:auto;min-height:0;object-fit:contain}.advisor-photo figcaption{padding:19px 23px}.advisor-draft{padding:26px 23px}.advisor-draft h3{font-size:1.45rem}}
